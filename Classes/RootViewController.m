@@ -72,7 +72,7 @@
 	[super viewDidAppear:animated];
 	
 	if ([stories count] == 0) {
-		NSString * path = @"http://feeds.feedburner.com/TheAppleBlog";
+		NSString * path = @"http://freefoodumn.com/view_by_list/xml";
 		[self parseXMLFileAtURL:path];
 	}
 	
